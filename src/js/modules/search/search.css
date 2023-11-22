@@ -1,5 +1,6 @@
 main{
     width: 80%;
+    min-width: 400px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -44,4 +45,25 @@ main .div__product span{
 }
 main .div__product strong{
     font-size: 1.3em;
+}
+@media (max-width:1000px){
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 780px){
+    main .div__product {
+        width: 220px;
+        height: 220px;
+    }
+    main .div__product img{
+        width: 110px;
+    }
+}
+@media (max-width:570px) {
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
