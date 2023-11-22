@@ -10,6 +10,7 @@ document.querySelector('html').innerHTML = `
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Aplicativos de compras</title>
     <body>
+        <div class='div__shadow'></div>
         <header></header>
         <main></main>
     </body>
@@ -18,12 +19,17 @@ export function createHeader(){
     const header = document.querySelector('header')
     header.innerHTML = `
     <header>
-    <button>
+    <button id='menu'>
     <span class="material-symbols-outlined">
     menu
     </span>
     </button>
      <nav class='nav__menu'>
+     <button id='close'>
+     <span class="material-symbols-outlined">
+        close   
+        </span>
+        </button>
         <ul class='ul__menu'>
             <li><a href="#">Categorias</a></li>
             <li><a href="#">Histórico</a></li>
@@ -51,6 +57,31 @@ export function createHeader(){
         </li>
         </ul>
         </form>
-    </header>
-`
+    </header>`
+    const NavMenu = document.querySelector('nav')
+    const DivShadow = document.querySelector('.div__shadow')
+    const Menu = document.getElementById('menu')
+    Menu.addEventListener('click',() => {
+        NavMenu.style.display = 'flex'
+        DivShadow.style.display = 'block'
+        document.body.style.overflowY = 'hidden'
+    })
+    const Close = document.getElementById('close')
+    Close.addEventListener('click',() => {
+        NavMenu.style.display = 'none'
+        DivShadow.style.display = 'none'
+        document.body.style.overflowY = 'auto'
+    })
+    const WidthWindow = setInterval(() => {
+        const DisplayNav = window.getComputedStyle(NavMenu).display
+        if (window.innerWidth > 800 && DisplayNav === 'none'){
+            NavMenu.style.display = 'flex'
+            DivShadow.style.display = 'none'
+        }
+        if (window.innerWidth < 800 && DisplayNav !== 'none') {
+            NavMenu.style.display = 'flex'
+            DivShadow.style.display = 'flex'
+            }
+    })
 }
+

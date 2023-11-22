@@ -26,6 +26,7 @@ const CreateBody = (title,response) => {
         <title> ${title} </title>
     `
     document.body.innerHTML = ` 
+    <div class='div__shadow'></div>
     <header>
     </header>
     <main></main> `

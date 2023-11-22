@@ -1,0 +1,46 @@
+:root{
+    --cor-header:#0090ff;
+    --cor-button-search:#0051ff;
+}
+main .section__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-width: 400px;
+    height: 458px;
+    
+}
+.section__img h1{
+    font-size: 2em;
+    color: white;
+}
+main .section__pagamento {
+    
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  0 0 5px #ccc;
+    
+}
+.section__pagamento .material-symbols-outlined{
+    font-size: 4rem;
+    color: var(--cor-button-search);
+}
+.section__pagamento > div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.6em;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    align-items: center;
+}
