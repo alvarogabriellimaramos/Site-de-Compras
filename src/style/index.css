@@ -51,10 +51,10 @@ header form button:hover{
         position: fixed;
         z-index: 1;
         top: 0;
+        bottom: 0;
         width: 100vw;
-        min-width: 400px;
-        min-height: 100vh;
-        height: 100vh;
+        min-width: 420px;
+        height: 100%;
         background-color: rgba(0, 0, 0, 0.377);
     }
     header .nav__menu{
@@ -65,7 +65,8 @@ header form button:hover{
         left: 0;
         width: 140px;
         top: 0;
-        height: 100vh;
+        bottom: 0;
+        height: 100%;
         padding: 10px;
         animation: nav-animation .3s;
     }
