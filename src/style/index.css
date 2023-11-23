@@ -11,11 +11,11 @@
 }
 body{
     width:100%;
-    min-width:400px;
     background-color: #f8efed;
 }
 header{
     background-color: #0090ff;
+    width: 100%;
 }
 header form button{
     background-color: var(--cor-button-search);

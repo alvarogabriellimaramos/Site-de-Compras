@@ -1,0 +1,10 @@
+@media (max-width:650px){
+    .section__img h1 {
+        font-size: 2.3em;
+    }
+}
+@media (max-width:420px){
+    body{
+        min-width: 450px;
+    }
+}

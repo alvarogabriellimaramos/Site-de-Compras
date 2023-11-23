@@ -13,14 +13,13 @@ main .section__img{
     
 }
 .section__img h1{
-    font-size: 2em;
+    font-size: 2.8em;
     color: white;
 }
 main .section__pagamento {
-    
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    
     margin: auto;
     margin-top: 8vh;
     margin-bottom: 8vh;
@@ -36,6 +35,7 @@ main .section__pagamento {
 .section__pagamento > div{
     display: flex;
     flex-direction: column;
+    width: 50%;
     border-radius: 5px;
     text-align: center;
     justify-content: center;
@@ -43,4 +43,13 @@ main .section__pagamento {
     padding: 10px;
     border-right: 1px solid #ccc;
     align-items: center;
+}
+.section__pagamento .div div {
+    display: flex;
+    flex-direction: column;
+}
+.section__pagamento a {
+    text-decoration: none;
+    color: var(--cor-button-search);
+    font-weight: bold;
 }

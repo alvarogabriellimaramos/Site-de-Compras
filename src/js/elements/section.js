@@ -6,6 +6,7 @@ export function BodyIndex(){
         <section class='section__img'>
             <h1> Bem Vindo ao melhor site de compras do Brasil
         </section>
+        
         <section class='section__pagamento'>
             <div class='div'>
                 <span class="material-symbols-outlined">

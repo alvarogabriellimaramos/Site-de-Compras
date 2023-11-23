@@ -23,7 +23,7 @@ const CreateBody = (title,response) => {
     <link rel="stylesheet" href="src/js/elements/header.css">
     <link rel="stylesheet" href="src/style/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
-        <title> ${title} </title>
+        <title> Aplicativo de compras || ${title} </title>
     `
     document.body.innerHTML = ` 
     <div class='div__shadow'></div>
