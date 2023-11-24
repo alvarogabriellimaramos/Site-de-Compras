@@ -1,10 +1,4 @@
 # Site de compras 
-<style>
-    main{
-        font-size:1.1em
-        line-height: 1.3em;
-    }
-</style>
  <main>
         <section class="apresentação">
           
@@ -16,7 +10,8 @@ Esse foi um projeto que desenvolver utilizado HTML,CSS e JavaScript,o site por e
 </p>
 <p> Esse projeto foi feito puramente javascript,sem a utilização de frameworks e bibliteocas adicionais,apenas a api </p>
 <p>O projeto ainda será melhorado e muito,pretendo adicionais muitas coisas novas para ele e deixa com uma UI mais responsiva e interativa com JavaScript </p>
-<strong> Link do projeto,<a href='./index.html' target='_blank'></a>
+<strong> Link do projeto
 </strong>
+<a href='./index.html' target='_blank'> </a>
 </section>
 </main>
