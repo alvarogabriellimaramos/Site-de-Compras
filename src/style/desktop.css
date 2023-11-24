@@ -53,3 +53,94 @@ main .section__pagamento {
     color: var(--cor-button-search);
     font-weight: bold;
 }
+main .section{
+    display: flex;
+   
+    overflow-x: scroll;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+    padding-bottom: 10px;
+    transition: .3s;
+}
+.section div {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.8em;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10vh;
+}
+.section img {
+    width: 130px;
+}
+.section div span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 210px;
+    white-space: nowrap;
+    font-size: 16px;
+}
+.section div strong{
+    font-size: 1.3em;
+}
+
+main .section__categorias{
+    width: 90%;
+    margin: 10vh auto;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 20px;
+}
+.section__categorias .categorias{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+.categorias div {
+    display: flex;
+    width: 20%;
+    text-align: center;
+    line-height: 1.3em;
+    flex-direction: column;
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    align-items: center;
+    border-top: 1px solid #ccc;
+    transition: .3s;
+}
+.categorias div:nth-child(5),.categorias div:nth-child(4),.categorias div:nth-child(3),.categorias div:nth-child(2),.categorias div:nth-child(1){
+    border-top: none;
+}
+.categorias div:nth-child(5),.categorias div:nth-child(10){border-right: none; }
+.categorias div:hover{
+    background-color: #0051ff;
+    color: white;
+    cursor: pointer;
+}
+.categorias span{
+    color: var(--cor-button-search);
+    font-size: 4rem;
+}
+
+.categorias div:nth-child(1){
+    border-top-left-radius: 10px;
+}
+
+.categorias div:nth-child(10){
+    border-bottom-right-radius: 10px;
+}
+.categorias div:nth-child(5){
+    border-top-right-radius: 10px;
+}
+.categorias div:nth-child(6){
+    border-bottom-left-radius: 10px;
+}

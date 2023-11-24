@@ -13,6 +13,7 @@ document.querySelector('html').innerHTML = `
         <div class='div__shadow'></div>
         <header></header>
         <main></main>
+        <footer></footer>
     </body>
 `
 export function createHeader(){
