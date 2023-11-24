@@ -122,13 +122,13 @@ footer{
     padding: 1vh;
 }
 footer strong{
-    font-size: 1.2em;
+    font-size: 16px;
     
 }
 footer div{
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 10px;
 }
 footer ul{
     display: flex;
@@ -139,5 +139,5 @@ footer ul{
 footer a {
     text-decoration: none;
     color: white;
-    font-size: 1.1em;
+    font-size: 14px;
 }
