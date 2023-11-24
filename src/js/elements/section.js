@@ -43,9 +43,11 @@ export function BodyIndex(){
                 
             </div>
         </section>
+        
         <section class='products__1 section'></section>
         <section class='products__2 section'></section>
         <section class='products__3 section'></section>
+       
         <section class='section__categorias'>
             <h1> Cátegorias </h1>
             <div class='categorias'>
@@ -114,6 +116,6 @@ export function BodyIndex(){
         </div>
             </div>
         </section>
-    
+       
     `
 }

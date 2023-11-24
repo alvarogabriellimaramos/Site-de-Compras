@@ -1,6 +1,7 @@
 
 import { GetResponse } from "../../../api/getFetch.js"
 import { createHeader } from "../../elements/header.js"
+import { FooterFunction } from "../../elements/footer.js"
 export const SearchFunction = () => {
     const form = document.querySelector('form')
     form.addEventListener('submit',event => {
@@ -29,7 +30,8 @@ const CreateBody = (title,response) => {
     <div class='div__shadow'></div>
     <header>
     </header>
-    <main></main> `
+    <main></main>
+    `
     createHeader()
     SearchFunction()
     CreateMain(response)
