@@ -3,7 +3,7 @@
         <section class="apresentação">
           
 <p>
-Esse foi um projeto que desenvolver utilizado HTML,CSS e JavaScript,o site por enquanto consome apenas uma única <b>Api</b>,que é a <b>Api do mercado livre</b>
+Esse foi um projeto que desenvolvi utilizado HTML,CSS e JavaScript,o site por enquanto consome apenas uma única <b>Api</b>,que é a <b>Api do mercado livre</b>
 </p>
 <p>
     Utilizei a <b>Api</b> do mercado livre para fazer um simples pesquisador e mostra alguns produtos que a <b>Api</b> propociona na pagina html principal 
